@@ -1,0 +1,27 @@
+.block {
+  border-radius: 2vw;
+  margin: 0.5vw;
+}
+
+.button {
+  border: 2px solid #afa78c;
+  border-radius: 1vw;
+  background-color: #e9d8a2;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+}
+
+.button:hover {
+  border-radius: 1vw;
+  background-color: #afa78c;
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  color: #ffeba9;
+}
+
+.text-box {
+  background-color: #e9d8a2;
+  border: 1px solid #afa78c;
+  border-radius: 5vw;
+  padding: 0.3vw;
+  padding-left: 1vw;
+}
+/*# sourceMappingURL=main.css.map */

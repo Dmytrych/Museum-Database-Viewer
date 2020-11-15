@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dataAddStyles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="data-enter-place" class="block">
+        <form id="painting-add-form" method="POST">
+            <div id="cover">
+                <div id="painting-add-form">
+                    <div id="fields">
+                        <div id="painting-name" class="form-element">
+                            <label>Painting name</label>
+                            <input type="text" name="name" class="text-box">
+                        </div>
+                        <div id="painting-author" class="form-element">
+                            <label>Author</label>
+                            <input type="text" name="author" class="text-box">
+                        </div>
+                        <div id="painting-creation-year" class="form-element">
+                            <label>Creation Year</label>
+                            <input type="text" name="creationYear" class="text-box">
+                        </div>
+                        <div id="painting-style" class="form-element">
+                            <label>Style</label>
+                            <input type="text" name="style" class="text-box">
+                        </div>
+                        <div id="painting-epoch" class="form-element">
+                            <label>Epoch</label>
+                            <input type="text" name="epoch" class="text-box">
+                        </div>
+                        <div id="painting-medium" class="form-element">
+                            <label>Medium</label>
+                            <input type="text" name="medium" class="text-box">
+                        </div>
+                        <div id="painting-width" class="form-element">
+                            <label>Width(cm)</label>
+                            <input type="number" name="width" min="1" class="text-box">
+                        </div>
+                        <div id="painting-height" class="form-element">
+                            <label>Height(cm)</label>
+                            <input type="number" name="height" min="1" class="text-box">
+                        </div>
+                        <div id="painting-plot" class="form-element">
+                            <label>Plot</label>
+                            <input type="text" name="plot" class="text-box">
+                        </div>
+                        <div id="painting-cost" class="form-element">
+                            <label>Cost</label>
+                            <input type="number" name="cost" min="1" class="text-box">
+                        </div>
+                    </div>
+                    <div id="painting-image-load">
+                        <label>Upload painting image</label>
+                        <input type="file"  name="image" accept="image/*">
+                    </div>
+                </div>
+                <div id="submit-btn">
+                    <input type="submit" value="Submit" class="button">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

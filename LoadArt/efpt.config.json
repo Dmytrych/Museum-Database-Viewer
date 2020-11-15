@@ -1,0 +1,45 @@
+﻿{
+   "ContextClassName": "MuseumContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProjectRootNamespace": "LoadArt",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Authors]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Excursions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Pictures]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Visitors]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Workers]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseNodaTime": false,
+   "UseSpatial": false,
+   "UseStoredProcedures": false
+}

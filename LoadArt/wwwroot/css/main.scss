@@ -1,0 +1,31 @@
+$main: #ffeba9;
+$inner-elem-color: #e9d8a2;
+$accent: #afa78c;
+$font-pack: "Playfair Display", Georgia, "Times New Roman", serif;
+
+.block {
+    border-radius: 2vw;
+    margin: 0.5vw;
+}
+
+.button {
+    border: 2px solid $accent;
+    border-radius: 1vw;
+    background-color: $inner-elem-color;
+    font-family: $font-pack;
+}
+
+.button:hover {
+    border-radius: 1vw;
+    background-color: $accent;
+    font-family: $font-pack;
+    color: $main;
+}
+
+.text-box {
+    background-color: $inner-elem-color;
+    border: 1px solid $accent;
+    border-radius: 5vw;
+    padding: 0.3vw;
+    padding-left: 1vw;
+}

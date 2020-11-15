@@ -1,0 +1,88 @@
+body {
+  background-color: #afa78c;
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  max-height: 10%;
+}
+
+#middle-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 5;
+      -ms-flex: 5;
+          flex: 5;
+}
+
+#data-display {
+  margin: 0%;
+  padding: 0%;
+  margin-top: 0%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-flex: 4;
+      -ms-flex: 4;
+          flex: 4;
+}
+
+.data-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 2vw;
+  background-color: #ffeba9;
+}
+
+#settings-bar {
+  padding: 1vw;
+  background-color: #ffeba9;
+}
+
+#nav-bar {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 50vh;
+  max-height: 100vh;
+  background-color: #ffeba9;
+}
+
+#nav-bar .nav-btn {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  text-align: center;
+  padding: 0.3vw;
+  background-color: #e9d8a2;
+}
+/*# sourceMappingURL=styles.css.map */

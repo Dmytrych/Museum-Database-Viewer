@@ -1,0 +1,65 @@
+$main: #ffeba9;
+$inner-elem-color: #e9d8a2;
+$accent: #afa78c;
+$font-pack: "Playfair Display", Georgia, "Times New Roman", serif;
+
+body {
+    background-color: $accent;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    max-height: 10%;
+}
+//main part
+#middle-part {
+    display: flex;
+    flex-direction: row;
+}
+
+//content
+#content {
+    display: flex;
+    flex-direction: column;
+    flex: 5;
+}
+//data display section
+#data-display {
+    margin: 0%;
+    padding: 0%;
+    margin-top: 0%;
+    height: fit-content;
+    flex: 4;
+}
+
+.data-container {
+    display: flex;
+    flex-direction: row;
+    padding: 2vw;
+    background-color:  $main;
+}
+//settings section
+#settings-bar {
+    padding: 1vw;
+    background-color: $main;
+}
+
+//nav-bar
+#nav-bar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    max-height: 100vh;
+    background-color: $main;
+    .nav-btn {
+        min-height: fit-content;
+        text-align: center;
+        padding: 0.3vw;
+        background-color: $inner-elem-color;
+    }
+}
+
+

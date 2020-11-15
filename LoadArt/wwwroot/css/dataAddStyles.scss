@@ -1,0 +1,47 @@
+$main: #ffeba9;
+$inner-elem-color: #e9d8a2;
+$accent: #afa78c;
+$font-pack: "Playfair Display", Georgia, "Times New Roman", serif;
+
+html {
+    font-family: $font-pack;
+    background-color: $accent;
+}
+
+#data-enter-place {
+    width:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 3vw;
+    background-color: $main;
+}
+
+#painting-add-form {
+    display: flex;
+    flex-direction: row;
+    height: max-content;
+    width: 100%;
+    #painting-image-load {
+        flex: 1;
+    }
+}
+
+#cover {
+    width: 100%;
+}
+
+#fields {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    .form-element {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5vw;
+    }
+}
+
+#submit-btn input {
+    height: 3vw;
+    width: 50%;
+}
